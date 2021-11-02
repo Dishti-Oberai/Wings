@@ -17,7 +17,11 @@ html {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: #0096FF;
+  background-color: linear-gradient(
+        135deg,
+        #61d954,
+        #2ebf75
+    );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +73,11 @@ html {
   width: 0.7rem;
   height: 0.7rem;
   border-radius: 50%;
-  background-color: #0096FF;
+  background-color: linear-gradient(
+        135deg,
+        #61d954,
+        #2ebf75
+    );
   margin: -0.4rem 0 0 -0.4rem;
 }
 
@@ -151,7 +159,11 @@ html {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: #0096FF;
+  background: linear-gradient(
+        135deg,
+        #0096FF,
+        #00FFFF
+    );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -336,7 +348,7 @@ html {
 .container{
   height: 100vh;
   width: 100%;
-  background-image: url("./sky.jpg");
+  background-image: url("./sky1.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
