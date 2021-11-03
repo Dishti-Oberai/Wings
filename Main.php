@@ -45,7 +45,7 @@
           <h1>WINGS</h1>
           <p>A flight searching engine !</p>
           <a href="Signup.php"><button>Sign-up</button></a>
-          <a href="Login.html"><button>Login</button></a>
+          <a href="Login.php"><button>Login</button></a>
         </div>
       </header> 
     </div>
