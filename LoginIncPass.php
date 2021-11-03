@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="styleL.css">
   </head>
   <body>
-    <div class="center">
+      <div class="center">
       <h1>Login</h1>
-      <form method="post">
+      <form action="login.inc.php"method="post">
+        <h5><br><br>The password you entered is incorrect</h5>
         <div class="txt_field">
           <input type="text" name="UN" required>
           <span></span>
@@ -21,7 +22,7 @@
         </div>
         <input type="submit" value="Login">
         <div class="signup_link">
-          Not a member? <a href="#">Signup</a>
+          Not a member? <a href="Signup.php">Signup</a>
         </div>
       </form>
     </div>
