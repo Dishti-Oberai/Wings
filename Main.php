@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wings</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style1.css" />
     <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
     <link
       rel="stylesheet"
@@ -31,7 +31,7 @@
         <div class="rocket" style="color: white;"><i class="fa fa-plane fa-3x" aria-hidden="true"></i></div>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script3.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="

@@ -16,7 +16,7 @@
 					
 					if($user_data['PS'] === $PS)
 					{
-						header("Location: Main.php"); //REDIRECT TO THE PAGE REQUIRED. MAIN.PHP IS JUST FOR SAMPLE
+						header("Location: main.html"); //REDIRECT TO THE PAGE REQUIRED. MAIN.PHP IS JUST FOR SAMPLE
 						die;
 					}
 					else
@@ -29,6 +29,6 @@
 			header("Location: LoginNoRec.php");
 	
 
-    // header("Location: ../Virtual%20networking/index1.php");
+    
 
 ?>
