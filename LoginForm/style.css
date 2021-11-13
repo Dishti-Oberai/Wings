@@ -6,19 +6,18 @@
   font-family: "Poppins", sans-serif;
 }
 :root{
-  --primary: hsla(205, 100%, 50%, 0.65);
-  --secondary: hsla(180, 100%, 50%, 0.65);
+  --primary: hsla(348,97%,63%,0.65);
+  --secondary: hsla(230,96%,62%,0.65);
 }
 
 body{
   margin: 0;
   padding: 0;
-  /*background: linear-gradient(135deg,#191970, #00FFFF),url("bg-02.jpg") no-repeat center center / cover;*/
+  /*background: linear-gradient(120deg,#2980b9, #8e44ad);*/
   background: linear-gradient(135deg, var(--primary), var(--secondary)),
         url("bg-02.jpg") no-repeat center center / cover;
   height: 100vh;
   overflow: hidden;
-  color: #151B54;
 }
 .center{
   position: absolute;
@@ -26,7 +25,7 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
-  background: #fff;
+  background: #f9e6ff;
   border-radius: 10px;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
 }
@@ -111,14 +110,4 @@ input[type="submit"]:hover{
 }
 .signup_link a:hover{
   text-decoration: underline;
-}
-
-.tab input:focus ~ label,
-.tab input:valid ~ label{
-  top: -5px;
-  color: #2691d9;
-}
-.tab input:focus ~ span::before,
-.tab input:valid ~ span::before{
-  width: 100%;
 }
